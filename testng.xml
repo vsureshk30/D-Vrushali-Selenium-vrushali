@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="SuiteLogo">
-  <test thread-count="5" name="Test">
+<suite name="Suite3">
+  <test thread-count="5" name="Test3">
     <classes>
-      <class name="yourlogo.vrushali.CreateAccountTest"/>
-      <class name="yourlogo.vrushali.LogInTest"/>
-      <class name="yourlogo.vrushali.ProductDetailsTest"/>
-<!--       <class name="yourlogo.vrushali.AppTest"/>
-      <class name="yourlogo.vrushali.TestBase"/>-->
+    <class name="yourlogo1.vrushali1.CreateAccountTest"/>
+      <class name="yourlogo1.vrushali1.LogInTest"/>
+      <class name="yourlogo1.vrushali1.ProductDetailsTest"/>
+      	<class name="yourlogo1.vrushali1.OrderHistoryTest"/>
+      
+      <!-- <class name="yourlogo1.vrushali1.TestBase"/>
+      <class name="yourlogo1.vrushali1.AppTest"/> -->
+      
+      
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- SuiteLogo -->
+  </test> <!-- Test3 -->
+</suite> <!-- Suite3 -->
